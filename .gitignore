@@ -1,0 +1,39 @@
+# ----------------------------- Directories --------------------------
+node_modules
+storybook-static
+dist
+.idea
+.yarn
+
+# ----------------------------- File Types --------------------------
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# ----------------------------- Files -------------------------------
+.DS_Store
+# local env files
+.env.local
+.env.*.local
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+**/__tests__/temp/
+*.tgz
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+**/i18n/index.d.ts
+*.generated.ts
+*.tar
+stats.html
+.temp
+package-lock.json
